@@ -65,6 +65,7 @@ docs/**/*.tmp
 .windsurfrules
 .opencode/
 skills-lock.json
+AGENTS.log
 
 # Android-only editor and agent state formerly covered by android/.gitignore
 android/**/.history/
