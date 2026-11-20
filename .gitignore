@@ -1,12 +1,10 @@
-# Operating systems
+   # Operating systems
 .DS_Store
 Thumbs.db
 
 # Editors
-.vscode/
 .idea/
 *.iml
-*.code-workspace
 *.swp
 *.swo
 
@@ -54,19 +52,6 @@ docs/**/*.tmp
 **/.env.*
 !**/.env.example
 
-# Local AI/editor state. Shared project skills under .agents/ remain trackable.
-.ai/
-.ai-context/
-.context/
-.vibes/
-.skills/
-.cursor/
-.cursorrules
-.windsurfrules
-.opencode/
-skills-lock.json
-AGENTS.log
-
 # Android-only editor and agent state formerly covered by android/.gitignore
 android/**/.history/
 android/**/.vscode-test/
@@ -75,3 +60,28 @@ android/**/.agents/
 android/**/misc.xml
 android/**/deploymentTargetDropDown.xml
 android/**/render.experimental.xml
+
+# Visual Studio Code files
+.vscode/
+.history/
+prettierignore.txt
+*.code-workspace
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# AI development artifacts: skills, context, prompts, instructions, and agent-specific files
+.ai/
+.ai-context/
+.context/
+.vibes/
+.agents/
+.skills/
+.cursor/
+.cursorrules
+.windsurfrules
+.opencode/
+skills-lock.json
+
+# Mandatory local prompt log and its rotated copies (see docs/agents-log-policy.md)
+/AGENTS.log
+/AGENTS.log.*
