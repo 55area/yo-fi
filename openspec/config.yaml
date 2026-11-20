@@ -12,6 +12,9 @@ rules:
   proposal:
     - State the intended outcome, scope, exclusions, and affected subprojects.
   specs:
-    - Describe observable behavior and relevant failure cases in acceptance scenarios.
+    - Describe observable behavior and relevant failure cases in acceptance
+      scenarios.
   tasks:
-    - Link behavior tasks to their acceptance scenarios and name the evidence needed.
+    - Link behavior tasks to their acceptance scenarios and name the evidence
+      needed.
+skillsScope: project
